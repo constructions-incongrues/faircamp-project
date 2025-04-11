@@ -17,7 +17,7 @@ jobs:
         run: sudo apt update && sudo apt install -y gdebi-core && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb
 
       - name: Build the site
-        run: faircamp build
+        run: faircamp
 
       # - name: Deploy to GitHub Pages
       #   uses: peaceiris/actions-gh-pages@v3
