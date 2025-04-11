@@ -1,0 +1,41 @@
+title: My music
+base_url: https://example.com/my-music/
+language: en
+
+show_support_artists
+
+embedding: disabled
+m3u: enabled
+more_label: About
+
+release_downloads:
+- mp3
+
+home_image:
+description = Me in my studio
+file = studio_3.png
+
+link:
+url = https://example.com/my-music-elsewhere/
+
+link:
+label = Blog
+url = https://example.com/my-blog/
+
+-- synopsis
+Just some of my music
+-- synopsis
+
+-- more
+Some of my music released between 1999-2005.
+
+For further information check out my [website](https://example.com)
+-- more
+
+theme:
+accent_brightening = 85
+accent_chroma = 50
+accent_hue = 23
+base = light
+base_chroma = 34
+base_hue = 180
