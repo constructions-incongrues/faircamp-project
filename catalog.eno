@@ -1,6 +1,6 @@
 > https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html
 
-title: Faircamp Template
+title: Furrcamp
 
 -- synopsis
 My self hosted faircamp site, presenting some of my music.
@@ -18,7 +18,7 @@ release_download_access: free
 release_extras: separate
 
 home_image:
-    description="Faircamp Template"
+    description="Furrcamp"
     file=catalog.jpg
 
 link:
