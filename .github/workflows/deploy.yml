@@ -21,12 +21,28 @@ jobs:
       - name: Install dependencies
         run: sudo apt update && sudo apt install -y gdebi-core && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb
 
+      - name: Restore .faircamp_cache
+        id: cache-faircamp-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .faircamp_cache
+          key: ${{ runner.os }}-faircamp
+
       - name: Build the site
         run: faircamp
 
-      - name: Upload static files as artifact
+      - name: Save .faircamp_cache
+        id: cache-faircamp-save
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .faircamp_cache
+          key: ${{ steps.cache-faircamp-restore.outputs.cache-primary-key }}
+
+      - name: Upload .faircamp_build
         id: deployment
-        uses: actions/upload-pages-artifact@v3 # or specific "vX.X.X" version tag for this action
+        uses: actions/upload-pages-artifact@v3
         with:
           path: .faircamp_build/
 
