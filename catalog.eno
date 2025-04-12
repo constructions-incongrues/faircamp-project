@@ -6,7 +6,7 @@ title: Furrcamp
 Coucou les chiens-chiens !
 -- synopsis
 
-base_url: https://constructions-incongrues.github.io/faircamp-project/
+base_url: https://constructions-incongrues.github.io/furrcamp/
 language: fr
 
 embedding: enabled
@@ -22,7 +22,7 @@ home_image:
 
 link:
     label = Github
-    url = https://github.com/constructions-incongrues/faircamp-project/
+    url = https://github.com/constructions-incongrues/furrcamp/
 
 > https://simonrepp.com/faircamp/manual/releases-release-eno.html#theme
 theme:
