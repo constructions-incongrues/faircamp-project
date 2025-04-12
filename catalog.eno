@@ -18,7 +18,7 @@ release_extras: separate
 
 home_image:
     description="Furrcamp"
-    file=catalog.jpg
+    file=images/catalog.jpg
 
 link:
     label = Github
@@ -27,4 +27,6 @@ link:
 > https://simonrepp.com/faircamp/manual/releases-release-eno.html#theme
 theme:
     base = light
-    background_image = pattern.png
+    background_image = images/pattern.png
+
+favicon: images/favicon-96x96.png
