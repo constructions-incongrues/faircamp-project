@@ -3,8 +3,7 @@
 title: Furrcamp
 
 -- synopsis
-My self hosted faircamp site, presenting some of my music.
-Thanks for stopping by!
+Coucou les chiens-chiens !
 -- synopsis
 
 base_url: https://constructions-incongrues.github.io/faircamp-project/
@@ -26,10 +25,6 @@ link:
     url = https://github.com/constructions-incongrues/faircamp-project/
 
 > https://simonrepp.com/faircamp/manual/releases-release-eno.html#theme
-> theme:
->     accent_brightening = 85
->     accent_chroma = 50
->     accent_hue = 23
->     base = light
->     base_chroma = 34
->     base_hue = 180
+theme:
+    base = light
+    background_image = pattern.png
