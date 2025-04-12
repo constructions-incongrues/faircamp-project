@@ -1,40 +1,35 @@
-title: My music
-base_url: https://example.com/my-music/
-language: en
+> https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html
 
-show_support_artists
+title: Faircamp Template
 
-embedding: disabled
-m3u: enabled
-more_label: About
+-- synopsis
+My self hosted faircamp site, presenting some of my music.
+Thanks for stopping by!
+-- synopsis
 
-release_downloads:
-- mp3
+base_url: https://constructions-incongrues.github.io/faircamp-project/
+language: fr
+
+embedding: enabled
+m3u: disabled
+
+opengraph: enabled
+release_download_access: free
+release_extras: separate
 
 home_image:
-description = Me in my studio
+    description="Faircamp Template"
+    file=catalog.jpg
 
 link:
-url = https://example.com/my-music-elsewhere/
+    label = Github
+    url = https://github.com/constructions-incongrues/faircamp-project/
 
-link:
-label = Blog
-url = https://example.com/my-blog/
-
--- synopsis
-Just some of my music
--- synopsis
-
--- more
-Some of my music released between 1999-2005.
-
-For further information check out my [website](https://example.com)
--- more
-
-theme:
-accent_brightening = 85
-accent_chroma = 50
-accent_hue = 23
-base = light
-base_chroma = 34
-base_hue = 180
+> https://simonrepp.com/faircamp/manual/releases-release-eno.html#theme
+> theme:
+>     accent_brightening = 85
+>     accent_chroma = 50
+>     accent_hue = 23
+>     base = light
+>     base_chroma = 34
+>     base_hue = 180
