@@ -54,7 +54,7 @@ collections: # A list of collections the CMS should be able to edit
         widget: 'image'
         required: false
         tagname: ''
-      - { label: 'About', name: 'about', widget: 'markdown', hint: 'A few words...', required: false }
+      - { label: 'About', name: 'about', widget: 'markdown', required: false }
       - label: Tracks
         name: tracks
         widget: list
