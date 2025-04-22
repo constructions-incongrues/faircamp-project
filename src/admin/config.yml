@@ -6,13 +6,13 @@ backend:
   base_url: https://decap-proxy.constructions-incongrues.net
   auth_endpoint: /api/auth
 
-site_url: https://constructions-incongrues.github.io/tumultes-template/
+site_url: https://tumultes.incongru.org
 
 publish_mode: editorial_workflow
 media_folder: assets/uploads
 
 show_preview_links: false
-display_url: https://constructions-incongrues.github.io/tumultes-template/
+display_url: https://tumultes.incongru.org
 
 collections: # A list of collections the CMS should be able to edit
   - name: 'tumultes' # Used in routes, ie.: /admin/collections/:slug/edit
