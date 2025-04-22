@@ -9,5 +9,6 @@
   "embedding": "enabled",
   "title": "Tumultes Template",
   "language": "fr",
+  "show_support_artists": true,
   "faircamp_signature": "disabled"
 }
