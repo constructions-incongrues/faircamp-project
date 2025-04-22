@@ -2,7 +2,7 @@
   "title": "Exemple",
   "draft": true,
   "date": "2025-04-22 21:12",
-  "image": "cover.png",
+  "image": "",
   "about": "",
   "tracks": [
     {
@@ -15,5 +15,6 @@
     {
       "name": "Tristan"
     }
-  ]
+  ],
+  "publish_date": "2025-04-22 21:39"
 }
