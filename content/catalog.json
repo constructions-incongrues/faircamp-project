@@ -17,6 +17,20 @@
     "base": "light",
     "background_image": "./images/tumblr_mnlrxiVHmK1qzpy7ko3_1280.webp"
   },
+  "links": [
+    {
+      "link": {
+        "label": "ADD",
+        "url": "https://tumultes.incongru.org/admin/#/collections/tumultes/new"
+      }
+    },
+    {
+      "link": {
+        "label": "Github",
+        "url": "https://github.com/constructions-incongrues/tumultes"
+      }
+    }
+  ],
   "link": [
     {
       "label": "Github",
