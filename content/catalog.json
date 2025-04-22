@@ -12,6 +12,7 @@
   "feeds": "atom",
   "label_mode": true,
   "show_support_artists": true,
+  "feature_support_artists": true,
   "theme": {
     "base": "light",
     "background_image": "./images/tumblr_mnlrxiVHmK1qzpy7ko3_1280.webp"
@@ -20,9 +21,22 @@
     "description": "Tumultes !",
     "file": "./images/tumblr_mnlrxiVHmK1qzpy7ko1_1280.webp"
   },
+  "links": [
+    {
+      "link": {
+        "label": "Github",
+        "url": "https://github.com/constructions-incongrues/tumultes"
+      }
+    },
+    {
+      "link": {
+        "label": "Add",
+        "url": "https://tumultes.incongru.org/admin/#/collections/tumultes/new"
+      }
+    }
+  ],
   "link": {
     "label": "Github",
     "url": "https://github.com/constructions-incongrues/tumultes"
-  },
-  "feature_support_artists": true
+  }
 }
