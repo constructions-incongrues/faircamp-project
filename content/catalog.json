@@ -13,12 +13,7 @@
   "label_mode": true,
   "show_support_artists": true,
   "theme": {
-    "base": "light",
-    "background_image": "./images/tumblr_mnlrxiVHmK1qzpy7ko3_1280-1.webp"
-  },
-  "home_image": {
-    "description": "Tumultes",
-    "file": "./images/tumblr_mnlrxiVHmK1qzpy7ko2_1280.webp"
+    "base": "light"
   },
   "link": {
     "label": "Github",
