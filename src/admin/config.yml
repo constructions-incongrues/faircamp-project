@@ -93,11 +93,25 @@ collections: # A list of collections the CMS should be able to edit
           - { label: 'Feeds', name: 'feeds', widget: 'select', options: [disabled, all, podcast_rss, atom, generic_rss], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#feeds', default: atom }
           - { label: 'Label Mode', name: 'label_mode', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#label_mode', default: false }
           - { label: 'Show Support Artists', name: 'show_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#show_support_artists', default: false }
+          - { label: 'Feature Support Artists', name: 'feature_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#feature_support_artists', default: false }
           - { label: 'Theme', name: 'theme', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#theme', default: false, fields: [{name: base, label: Base, widget: select, options: [light, dark], default: 'light'}, {name: background_image, label: Background Image, widget: image, choose_url: false }] }
           - { label: 'Home Image', name: 'home_image', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#home_image', default: false, fields: [{name: description, label: Description, widget: string }, {name: file, label: File, widget: image, choose_url: false}] }
-          - { label: 'Link', name: 'link', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#link', default: false, fields: [{name: label, label: Label, widget: string }, {name: url, label: URL, widget: string}] }
           - { label: 'Favicon', name: 'favicon', widget: 'image', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#favicon' }
-          - { label: 'Feature Support Artists', name: 'feature_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#feature_support_artists', default: false }
+          - label: 'Links'
+            name: 'links'
+            widget: list
+            label_singular: Link
+            summary: '{{label}}'
+            root: true
+            required: false
+            hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#link'
+            fields: 
+              - label: Label
+                name: label
+                widget: string
+              - label: URL
+                name: url
+                widget: string
 
           
           
