@@ -2,5 +2,6 @@
   "title": "Tumultes Template",
   "language": "fr",
   "cache_optimization": "delayed",
-  "copy_link": true
+  "copy_link": true,
+  "embedding": true
 }
