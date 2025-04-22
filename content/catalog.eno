@@ -1,12 +1,12 @@
 > https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html
 
-title: Furrcamp
+title: Tumultes Template
 
 -- synopsis
-Coucou les chiens-chiens !
+GLOIRE A SATAN !
 -- synopsis
 
-base_url: https://constructions-incongrues.github.io/furrcamp/
+base_url: https://constructions-incongrues.github.io/tumultes-template/
 language: fr
 
 embedding: enabled
@@ -17,12 +17,12 @@ release_download_access: free
 release_extras: separate
 
 home_image:
-    description="Furrcamp"
+    description="Tumultes Template"
     file=../images/catalog.jpg
 
 link:
     label = Github
-    url = https://github.com/constructions-incongrues/furrcamp/
+    url = https://github.com/constructions-incongrues/tumultes-template/
 
 > https://simonrepp.com/faircamp/manual/releases-release-eno.html#theme
 theme:

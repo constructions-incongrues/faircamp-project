@@ -4,12 +4,9 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         gdebi-core \
         git \
-        lltag \
-        libmp3-tag-perl \
-        make \
-        mp3info
+        make
     
-COPY ./pkg /tmp/
+COPY ./.devcontainer/pkg /tmp/
 
 RUN  gdebi -n /tmp/faircamp_1.3.0-1+deb12_amd64.deb \
     && apt-get clean \
