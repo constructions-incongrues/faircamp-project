@@ -98,7 +98,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: 'Home Image', name: 'home_image', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#home_image', default: false, fields: [{name: description, label: Description, widget: string }, {name: file, label: File, widget: image, choose_url: false}] }
           - { label: 'Favicon', name: 'favicon', widget: 'image', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#favicon' }
           - label: 'Links'
-            name: 'links'
+            name: 'link'
             widget: list
             label_singular: Link
             summary: '{{label}}'
