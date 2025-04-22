@@ -65,7 +65,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: Settings
     name: settings
     icon: settings
-    media_folder: 'images'
+    media_folder: '/content/images'
     public_folder: 'images'
     files:
       - label: "Catalog"
