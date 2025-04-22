@@ -4,7 +4,13 @@
   "date": "2025-04-22 16:12",
   "image": "cover.jpg",
   "about": "",
-  "tracks": [],
+  "tracks": [
+    {
+      "artist": "fezfezfez",
+      "title": "fzefezz",
+      "file": "08%20Speed.mp3"
+    }
+  ],
   "authors": [
     {
       "name": "Tristan"
