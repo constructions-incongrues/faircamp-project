@@ -13,8 +13,8 @@
   "label_mode": true,
   "show_support_artists": true,
   "theme": {
-    "base": "light",
-    "background_image": "tumblr_mnlrxiVHmK1qzpy7ko2_1280.webp"
+    "base": "dark",
+    "background_image": "tumblr_mnlrxiVHmK1qzpy7ko1_1280.webp"
   },
   "home_image": {
     "description": "Tumultes Template",
