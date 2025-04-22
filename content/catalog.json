@@ -12,6 +12,7 @@
   "feeds": "atom",
   "label_mode": true,
   "show_support_artists": true,
+  "feature_support_artists": true,
   "theme": {
     "base": "light"
   },
