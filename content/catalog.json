@@ -1,10 +1,13 @@
 {
+  "opengraph": "enabled",
+  "copy_link": "enabled",
+  "cache_optimization": "delayed",
+  "label_mode": true,
+  "speed_controls": "enabled",
+  "m3u": "disabled",
+  "feeds": "atom",
+  "embedding": "enabled",
   "title": "Tumultes Template",
   "language": "fr",
-  "cache_optimization": "delayed",
-  "copy_link": "enabled",
-  "embedding": "enabled",
-  "faircamp_signature": "disabled",
-  "opengraph": "enabled",
-  "m3u": "disabled"
+  "faircamp_signature": "disabled"
 }
