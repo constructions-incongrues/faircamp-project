@@ -11,4 +11,4 @@ build:
 	faircamp --catalog-dir ./content/ --build-dir ./var/build --cache-dir ./var/cache
 
 inject-admin:
-	cp -R ./admin ./catalog/.faircamp_build/
+	cp -R ./admin ./var/build/
