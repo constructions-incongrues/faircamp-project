@@ -1,5 +1,7 @@
 .faircamp_build
 .faircamp_cache
 .venv
-/var
 .venv
+/var
+node_modules
+/content/catalog.eno

@@ -1,0 +1,96 @@
+backend:
+  name: github
+  repo: constructions-incongrues/tumultes-template
+  branch: main
+  site_domain: https://decap-proxy.constructions-incongrues.net
+  base_url: https://decap-proxy.constructions-incongrues.net
+  auth_endpoint: /api/auth
+
+site_url: https://constructions-incongrues.github.io/tumultes-template/
+
+publish_mode: editorial_workflow
+media_folder: assets/uploads
+
+collections: # A list of collections the CMS should be able to edit
+  - name: 'tumultes' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Tumultes' # Used in the UI
+    label_singular: 'Tumulte' # Used in the UI, ie: "New Post"
+    icon: genres
+    description: >
+      Du son pour les oreilles
+    folder: 'content/tumultes'
+    slug: '{{slug}}'
+    path: '{{slug}}/manifest'
+    summary: '{{title}}'
+    create: true # Allow users to create new documents in this collection
+    editor:
+      visualEditing: true
+    format: json
+    media_folder: ''
+    public_folder: ''
+    fields: # The fields each document in this collection have
+      - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - label: "Curators"
+        name: "curators"
+        widget: "list"
+        label_singular: Curator
+        fields:
+          - { label: "Name", name: "name", widget: "string" }
+      -  label: 'Publish Date'
+         name: 'publish_date'
+         widget: 'datetime'
+         format: 'YYYY-MM-DD HH:mm'
+         default: '{{now}}'     
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
+        required: false
+        tagname: ''
+      - { label: 'About', name: 'about', widget: 'markdown', hint: 'A few words...', required: false }
+      - label: Tracks
+        name: tracks
+        widget: list
+        required: false
+        label_singular: Track
+        summary: '{{artist}} - {{title}}'
+        fields:
+          - {label: Artist, name: artist, widget: string}
+          - {label: Title, name: title, widget: string}
+          - label: File
+            name: file
+            widget: file
+            media_library: 
+              allow_multiple: false
+
+  - label: Settings
+    name: settings
+    icon: settings
+    media_folder: 'images'
+    public_folder: 'images'
+    files:
+      - label: "Catalog"
+        name: "catalog"
+        file: "content/catalog.json"
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string', required: true, hint: 'The value of title appears in multiple places on the site, inside the RSS Feed, etc.' }
+          - { label: 'Synopsis', name: 'synopsis', widget: 'markdown', required: false, hint: 'A short (256 characters max), plain-text introduction text for your catalog, this is the first thing visitors will see - make it count!' }
+          - { label: 'Base URL', name: 'base_url', widget: 'string', required: true, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#base_url' }
+          - { label: 'Language', name: 'language', widget: 'string', required: true, default: 'fr', hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#language' }
+          - { label: 'Cache Optimization', name: 'cache_optimization', widget: 'select', required: true, options: [delayed, immediate, wipe, manual], default: 'delayed', hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#cache_optimization' }
+          - { label: 'Copy Link', name: 'copy_link', widget: 'select', options: [enabled, disabled], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#copy_link', default: enabled }
+          - { label: 'Embedding', name: 'embedding', widget: 'select', options: [enabled, disabled], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#embedding', default: enabled }
+          - { label: 'M3U', name: 'm3u', widget: 'select', options: [enabled, catalog, releases, disabled], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#m3u', default: enabled }
+          - { label: 'Opengraph', name: 'opengraph', widget: 'select', options: [enabled, disabled], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#opengraph', default: enabled }
+          - { label: 'Speed Controls', name: 'speed_controls', widget: 'select', options: [enabled, disabled], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#speed_controls', default: enabled }
+          - { label: 'Faircamp Signature', name: 'faircamp_signature', widget: 'select', options: [enabled, disabled], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#faircamp_signature', default: enabled }
+          - { label: 'Feeds', name: 'feeds', widget: 'select', options: [disabled, all, podcast_rss, atom, generic_rss], required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#feeds', default: atom }
+          - { label: 'Label Mode', name: 'label_mode', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#label_mode', default: false }
+          - { label: 'Show Support Artists', name: 'show_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#show_support_artists', default: false }
+          - { label: 'Feature Support Artists', name: 'feature_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#feature_support_artists', default: false }
+          - { label: 'Theme', name: 'theme', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#theme', default: false, fields: [{name: base, label: Base, widget: select, options: [light, dark], default: 'light'}, {name: background_image, label: Background Image, widget: image}] }
+          - { label: 'Home Image', name: 'home_image', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#home_image', default: false, fields: [{name: description, label: Description, widget: string }, {name: file, label: File, widget: image}] }
+          - { label: 'Link', name: 'link', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#link', default: false, fields: [{name: label, label: Label, widget: string }, {name: url, label: URL, widget: string}] }
+          - { label: 'Favicon', name: 'favicon', widget: 'image', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#favicon' }
+
+          
+          

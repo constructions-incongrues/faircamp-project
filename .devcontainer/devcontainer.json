@@ -5,6 +5,9 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": ".."
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
 	}
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
