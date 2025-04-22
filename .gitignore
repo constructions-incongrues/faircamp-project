@@ -1,4 +1,5 @@
 .faircamp_build
 .faircamp_cache
 .venv
-.github
+/var
+.venv

@@ -18,36 +18,44 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.12
+      
+      - name: Install Python dependencies
+        uses: py-actions/py-dependency-install@v4
+
       - name: Install dependencies
-        run: sudo apt update && sudo apt install -y gdebi-core lltag libmp3-tag-perl && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb
+        run: sudo apt update && sudo apt install -y gdebi-core make && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb
 
       - name: Restore .faircamp_cache
         id: cache-faircamp-restore
         uses: actions/cache/restore@v4
         with:
           path: |
-            catalog/.faircamp_cache
+            var/cache
           key: ${{ runner.os }}-faircamp
 
       - name: Tag tracks
-        run: lltag ./catalog/Releases/ -R  -p --id3v2 --yes
+        run: make tag
 
       - name: Build the site
-        run: faircamp --catalog-dir ./catalog
+        run: make build inject-admin
 
       - name: Save .faircamp_cache
         id: cache-faircamp-save
         uses: actions/cache/save@v4
         with:
           path: |
-            catalog/.faircamp_cache
+            var/cache
           key: ${{ steps.cache-faircamp-restore.outputs.cache-primary-key }}
 
       - name: Upload .faircamp_build
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: catalog/.faircamp_build/
+          path: var/build
 
   deploy:
     environment:
