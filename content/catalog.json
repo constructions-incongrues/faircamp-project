@@ -1,4 +1,5 @@
 {
+  "base_url": "https://constructions-incongrues.github.io/tumultes-template/",
   "opengraph": "enabled",
   "copy_link": "enabled",
   "theme": {
@@ -14,5 +15,13 @@
   "title": "Tumultes Template",
   "language": "fr",
   "show_support_artists": true,
+  "link": {
+    "label": "Github",
+    "url": "https://github.com/constructions-incongrues/tumultes-template"
+  },
+  "home_image": {
+    "description": "Tumultes Template",
+    "file": "/assets/uploads/tumblr_mnlrxivhmk1qzpy7ko4_1280.webp"
+  },
   "faircamp_signature": "disabled"
 }
