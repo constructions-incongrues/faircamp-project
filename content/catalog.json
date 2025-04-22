@@ -24,11 +24,5 @@
     "label": "Github",
     "url": "https://github.com/constructions-incongrues/tumultes"
   },
-  "feature_support_artists": true,
-  "links": [
-    {
-      "label": "Github",
-      "url": "https://github.com/constructions-incongrues/tumultes"
-    }
-  ]
+  "feature_support_artists": true
 }
