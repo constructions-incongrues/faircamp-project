@@ -41,7 +41,7 @@ jobs:
         run: make tag
 
       - name: Build the site
-        run: make build inject-admin
+        run: make catalog build inject-admin
 
       - name: Save .faircamp_cache
         id: cache-faircamp-save
