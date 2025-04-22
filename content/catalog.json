@@ -2,6 +2,7 @@
   "title": "Tumultes Template",
   "language": "fr",
   "cache_optimization": "delayed",
-  "copy_link": true,
-  "embedding": true
+  "copy_link": "enabled",
+  "embedding": "enabled",
+  "faircamp_signature": "disabled"
 }
