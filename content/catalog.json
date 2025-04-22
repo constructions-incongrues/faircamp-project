@@ -1,6 +1,10 @@
 {
   "opengraph": "enabled",
   "copy_link": "enabled",
+  "theme": {
+    "base": "light",
+    "background_image": "/assets/uploads/cover.jpg"
+  },
   "cache_optimization": "delayed",
   "label_mode": true,
   "speed_controls": "enabled",
