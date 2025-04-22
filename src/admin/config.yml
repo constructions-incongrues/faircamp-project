@@ -36,6 +36,12 @@ collections: # A list of collections the CMS should be able to edit
     format: json
     media_folder: ''
     public_folder: ''
+    view_groups:
+      - label: Year
+        field: date
+        pattern: \d{4}
+      - label: Drafts
+        field: draft
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
       - label: "Curators"
