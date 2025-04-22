@@ -1,5 +1,21 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/python
 {
-    "name": "Furrcamp Devcontainer",
-    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
-    "postCreateCommand": "pip install -r requirements.txt && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb"
+	"name": "Furrcamp Dev Container",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	}
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "docker --version",
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
 }
