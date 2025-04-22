@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: constructions-incongrues/tumultes-template
+  repo: constructions-incongrues/tumultes
   branch: main
   site_domain: https://decap-proxy.constructions-incongrues.net
   base_url: https://decap-proxy.constructions-incongrues.net
