@@ -73,7 +73,6 @@ collections: # A list of collections the CMS should be able to edit
         file: "content/catalog.json"
         fields:
           - { label: 'Title', name: 'title', widget: 'string', required: true, hint: 'The value of title appears in multiple places on the site, inside the RSS Feed, etc.' }
-          - { label: 'Synopsis', name: 'synopsis', widget: 'markdown', required: false, hint: 'A short (256 characters max), plain-text introduction text for your catalog, this is the first thing visitors will see - make it count!' }
           - { label: 'Base URL', name: 'base_url', widget: 'string', required: true, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#base_url' }
           - { label: 'Language', name: 'language', widget: 'string', required: true, default: 'fr', hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#language' }
           - { label: 'Cache Optimization', name: 'cache_optimization', widget: 'select', required: true, options: [delayed, immediate, wipe, manual], default: 'delayed', hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#cache_optimization' }
