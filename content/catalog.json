@@ -30,15 +30,5 @@
         "url": "https://github.com/constructions-incongrues/tumultes"
       }
     }
-  ],
-  "link": [
-    {
-      "label": "Github",
-      "url": "https://github.com/constructions-incongrues/tumultes"
-    },
-    {
-      "label": "ADD",
-      "url": "https://tumultes.incongru.org/admin/#/collections/tumultes/new"
-    }
   ]
 }
