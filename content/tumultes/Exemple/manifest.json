@@ -1,15 +1,19 @@
 {
-    "title": "Exemple",
-    "draft": true,
-    "date": "",
-    "image": "cover.png",
-    "about": "",
-    "tracks": [
-        {
-            "artist": "Trez et Brioche",
-            "title": "Interlude Probleme",
-            "file": "01 - Trez et Brioche - Interlude Probleme.mp3"
-        }
-    ],
-    "curators": []
+  "title": "Exemple",
+  "draft": true,
+  "date": "2025-04-22 21:12",
+  "image": "cover.png",
+  "about": "",
+  "tracks": [
+    {
+      "artist": "Trez et Brioche",
+      "title": "Interlude Probleme",
+      "file": "01 - Trez et Brioche - Interlude Probleme.mp3"
+    }
+  ],
+  "curators": [
+    {
+      "name": "Tristan"
+    }
+  ]
 }
