@@ -26,7 +26,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: |
-            .faircamp_cache
+            catalog/.faircamp_cache
           key: ${{ runner.os }}-faircamp
 
       - name: Tag tracks
@@ -40,14 +40,14 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: |
-            .faircamp_cache
+            catalog/.faircamp_cache
           key: ${{ steps.cache-faircamp-restore.outputs.cache-primary-key }}
 
       - name: Upload .faircamp_build
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: .faircamp_build/
+          path: catalog/.faircamp_build/
 
   deploy:
     environment:
