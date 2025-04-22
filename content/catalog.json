@@ -4,7 +4,7 @@
   "copy_link": "enabled",
   "theme": {
     "base": "light",
-    "background_image": "tumblr_mnlrxivhmk1qzpy7ko2_1280.webp"
+    "background_image": "images/tumblr_mnlrxivhmk1qzpy7ko2_1280.webp"
   },
   "cache_optimization": "delayed",
   "label_mode": true,
@@ -21,7 +21,7 @@
   },
   "home_image": {
     "description": "Tumultes Template",
-    "file": "tumblr_mnlrxivhmk1qzpy7ko3_1280.webp"
+    "file": "images/tumblr_mnlrxivhmk1qzpy7ko3_1280.webp"
   },
   "faircamp_signature": "disabled"
 }
