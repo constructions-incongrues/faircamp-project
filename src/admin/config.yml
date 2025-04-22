@@ -11,6 +11,9 @@ site_url: https://constructions-incongrues.github.io/tumultes-template/
 publish_mode: editorial_workflow
 media_folder: assets/uploads
 
+show_preview_links: false
+display_url: https://constructions-incongrues.github.io/tumultes-template/
+
 collections: # A list of collections the CMS should be able to edit
   - name: 'tumultes' # Used in routes, ie.: /admin/collections/:slug/edit
     label: 'Tumultes' # Used in the UI
@@ -66,7 +69,7 @@ collections: # A list of collections the CMS should be able to edit
     name: settings
     icon: settings
     media_folder: '/content/images'
-    public_folder: 'images'
+    public_folder: './images'
     files:
       - label: "Catalog"
         name: "catalog"
@@ -86,8 +89,8 @@ collections: # A list of collections the CMS should be able to edit
           - { label: 'Label Mode', name: 'label_mode', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#label_mode', default: false }
           - { label: 'Show Support Artists', name: 'show_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#show_support_artists', default: false }
           - { label: 'Feature Support Artists', name: 'feature_support_artists', widget: 'boolean', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#feature_support_artists', default: false }
-          - { label: 'Theme', name: 'theme', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#theme', default: false, fields: [{name: base, label: Base, widget: select, options: [light, dark], default: 'light'}, {name: background_image, label: Background Image, widget: image}] }
-          - { label: 'Home Image', name: 'home_image', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#home_image', default: false, fields: [{name: description, label: Description, widget: string }, {name: file, label: File, widget: image}] }
+          - { label: 'Theme', name: 'theme', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#theme', default: false, fields: [{name: base, label: Base, widget: select, options: [light, dark], default: 'light'}, {name: background_image, label: Background Image, widget: image, choose_url: false }] }
+          - { label: 'Home Image', name: 'home_image', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#home_image', default: false, fields: [{name: description, label: Description, widget: string }, {name: file, label: File, widget: image, choose_url: false}] }
           - { label: 'Link', name: 'link', widget: 'object', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#link', default: false, fields: [{name: label, label: Label, widget: string }, {name: url, label: URL, widget: string}] }
           - { label: 'Favicon', name: 'favicon', widget: 'image', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#favicon' }
 
