@@ -1,5 +1,10 @@
 {
-  "title": "WESH >W",
+  "title": "WESH >Wvrgr",
+  "curators": [
+    {
+      "name": "Tristan"
+    }
+  ],
   "draft": true,
   "date": "2025-04-22 16:12",
   "image": "cover.jpg",
@@ -14,11 +19,6 @@
       "artist": "FEZJIFJEZ",
       "title": "dflef",
       "file": "05%20Lokis%20Castle.mp3"
-    }
-  ],
-  "curators": [
-    {
-      "name": "Tristan"
     }
   ]
 }
