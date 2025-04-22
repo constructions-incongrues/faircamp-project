@@ -1,0 +1,114 @@
+{
+    "title": "Where is the fish?",
+    "draft": false,
+    "date": "2024-06-16 00:00:00",
+    "image": "cover.jpg",
+    "about": "",
+    "tracks": [
+        {
+            "artist": "Unknown Artist",
+            "title": "01 - Bruno Alexiu - Générique Thalassa (1979)",
+            "file": "01 - Bruno Alexiu - Générique Thalassa (1979).mp3"
+        },
+        {
+            "artist": "Unknown Artist",
+            "title": "02 - Michel Legrand - Oum le dauphin",
+            "file": "02 - Michel Legrand - Oum le dauphin.mp3"
+        },
+        {
+            "artist": "Atelier Méditerranée",
+            "title": "La petite sirène",
+            "file": "03 - Atelier Méditerrane - La petite Sirène.mp3"
+        },
+        {
+            "artist": "Boby Lapointe",
+            "title": "La Maman des poissons",
+            "file": "04 - Bobby Lapointe - La Maman des poissons.flac"
+        },
+        {
+            "artist": "Bloo Music",
+            "title": "Fischerspooner - Emerge",
+            "file": "05 - Fischerspooner - Emerge.mp3"
+        },
+        {
+            "artist": "Les archives de la RTS",
+            "title": "France Gall -  Bébé requin (1968)",
+            "file": "06 - France Gall -  Bébé requin (1968).mp3"
+        },
+        {
+            "artist": "Unknown Artist",
+            "title": "08 - Virna Lindt - Underwater Boy",
+            "file": "08 - Virna Lindt - Underwater Boy.mp3"
+        },
+        {
+            "artist": "sean7000",
+            "title": "Underworld - Born Slippy",
+            "file": "20 - Underworld - Born Slippy.mp3"
+        },
+        {
+            "artist": "Vive La France!",
+            "title": "Bourvil - Le poisson rouge (chanson presque vécue)",
+            "file": "Bourvil - Le poisson rouge (chanson presque vécue).mp3"
+        },
+        {
+            "artist": "Naxsia",
+            "title": "Daphniele -  Pour l'amour d'un dauphin Paroles/Lyrics",
+            "file": "Daphniele -  Pour l'amour d'un dauphin Paroles⧸Lyrics.mp3"
+        },
+        {
+            "artist": "Olivier Curtis",
+            "title": "FRIANDISES - LES MOULES ET LES FRITES (BRADERIE DE LILLE)",
+            "file": "FRIANDISES - LES MOULES ET LES FRITES (BRADERIE DE LILLE).mp3"
+        },
+        {
+            "artist": "Kero Kero Bonito",
+            "title": "Kero Kero Bonito - Flamingo",
+            "file": "Kero Kero Bonito - Flamingo.mp3"
+        },
+        {
+            "artist": "Unknown Artist",
+            "title": "Fish",
+            "file": "Mr Scruff - Fish.mp3"
+        },
+        {
+            "artist": "joey florian",
+            "title": "Publicité Crousti Bat Findus 1991",
+            "file": "Publicité Crousti Bat Findus 1991.mp3"
+        },
+        {
+            "artist": "Archipub",
+            "title": "Publicité poisson pané 'Captain Iglo' - 1988",
+            "file": "Publicité poisson pané 'Captain Iglo' - 1988.mp3"
+        },
+        {
+            "artist": "alekosg",
+            "title": "RADIO PIRATES - What shall we do with the drunken Dj (Clean & Full)",
+            "file": "RADIO PIRATES - What shall we do with the drunken Dj (Clean & Full).mp3"
+        },
+        {
+            "artist": "Raffi",
+            "title": "Raffi - Baby Beluga (Official Animated Video)",
+            "file": "Raffi - Baby Beluga (Official Animated Video).mp3"
+        },
+        {
+            "artist": "RichardGotainer",
+            "title": "Richard Gotainer - Saupiquet (Les Poissons)",
+            "file": "Richard Gotainer - Saupiquet (Les Poissons).mp3"
+        },
+        {
+            "artist": "The Windjammers",
+            "title": "What Shall We Do With the Drunken Sailor?",
+            "file": "What Shall We Do With the Drunken Sailor？.mp3"
+        },
+        {
+            "artist": "Unknown Artist",
+            "title": "dorothee-bia-du-poisson",
+            "file": "dorothee-bia-du-poisson.mp3"
+        }
+    ],
+    "curators": [
+        {
+            "name": "Tristan"
+        }
+    ]
+}
