@@ -1,3 +1,6 @@
 {
-  "title": "TEST"
+  "title": "Tumultes Template",
+  "language": "fr",
+  "cache_optimization": "delayed",
+  "copy_link": true
 }
