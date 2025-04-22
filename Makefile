@@ -3,3 +3,6 @@ tag:
 
 preview:
 	faircamp --catalog-dir ./catalog --preview
+
+build:
+	faircamp --catalog-dir ./catalog

@@ -19,7 +19,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install dependencies
-        run: sudo apt update && sudo apt install -y gdebi-core && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb
+        run: sudo apt update && sudo apt install -y gdebi-core lltag libmp3-tag-perl && wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb
 
       - name: Restore .faircamp_cache
         id: cache-faircamp-restore
@@ -29,8 +29,11 @@ jobs:
             .faircamp_cache
           key: ${{ runner.os }}-faircamp
 
+      - name: Tag tracks
+        run: lltag ./catalog/Releases/ -R  -p --id3v2 --yes
+
       - name: Build the site
-        run: faircamp
+        run: faircamp --catalog-dir ./catalog
 
       - name: Save .faircamp_cache
         id: cache-faircamp-save
