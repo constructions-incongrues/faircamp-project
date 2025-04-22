@@ -4,5 +4,7 @@
   "cache_optimization": "delayed",
   "copy_link": "enabled",
   "embedding": "enabled",
-  "faircamp_signature": "disabled"
+  "faircamp_signature": "disabled",
+  "opengraph": "enabled",
+  "m3u": "disabled"
 }
