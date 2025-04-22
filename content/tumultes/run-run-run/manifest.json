@@ -1,54 +1,55 @@
 {
-    "title": "RUN RUN RUN",
-    "draft": false,
-    "date": "2024-06-16",
-    "image": "cover.png",
-    "about": "",
-    "tracks": [
-        {
-            "artist": "Milch Of Source",
-            "title": "Fat Girls're Running On The Beach",
-            "file": "00 - Milch Of Source - Fat Girls re Running On The Beach.mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "01 - The Honeymoon Killers - Fonce à Mort",
-            "file": "01 - The Honeymoon Killers - Fonce à Mort.mp3"
-        },
-        {
-            "artist": "And One",
-            "title": "Panzermensch",
-            "file": "01 Panzermensch.mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "04-DansLeMur",
-            "file": "04-DansLeMur.mp3"
-        },
-        {
-            "artist": "Ennio Morricone  Lyrics by Audrey Nohra ",
-            "title": "Kevin Blechdom sings Run Man Run",
-            "file": "RUN MAN RUN  KEVIN BLECHDOM.mp3"
-        },
-        {
-            "artist": "The Toons",
-            "title": "Video Games",
-            "file": "The Toons - Video Games.mp3"
-        },
-        {
-            "artist": "Tommi Stumpff",
-            "title": "Cours Dani",
-            "file": "Tommi Stumpff - Cours Dani.mp3"
-        },
-        {
-            "artist": "Bad Land Farmers",
-            "title": "fastest train on the railroad",
-            "file": "fastest_train_on_the_railroad_track_BLF.mp3"
-        }
-    ],
-    "curators": [
-        {
-            "name": "Tristan"
-        }
-    ]
+  "title": "RUN RUN RUN",
+  "curators": [
+    {
+      "name": "Tristan"
+    }
+  ],
+  "publish_date": "2025-04-23 00:49",
+  "image": "cover.png",
+  "about": "",
+  "tracks": [
+    {
+      "artist": "Milch Of Source",
+      "title": "Fat Girls're Running On The Beach",
+      "file": "00 - Milch Of Source - Fat Girls re Running On The Beach.mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "01 - The Honeymoon Killers - Fonce à Mort",
+      "file": "01 - The Honeymoon Killers - Fonce à Mort.mp3"
+    },
+    {
+      "artist": "And One",
+      "title": "Panzermensch",
+      "file": "01 Panzermensch.mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "04-DansLeMur",
+      "file": "04-DansLeMur.mp3"
+    },
+    {
+      "artist": "Ennio Morricone  Lyrics by Audrey Nohra",
+      "title": "Kevin Blechdom sings Run Man Run",
+      "file": "RUN MAN RUN  KEVIN BLECHDOM.mp3"
+    },
+    {
+      "artist": "The Toons",
+      "title": "Video Games",
+      "file": "The Toons - Video Games.mp3"
+    },
+    {
+      "artist": "Tommi Stumpff",
+      "title": "Cours Dani",
+      "file": "Tommi Stumpff - Cours Dani.mp3"
+    },
+    {
+      "artist": "Bad Land Farmers",
+      "title": "fastest train on the railroad",
+      "file": "fastest_train_on_the_railroad_track_BLF.mp3"
+    }
+  ],
+  "draft": false,
+  "date": "2024-06-16"
 }
