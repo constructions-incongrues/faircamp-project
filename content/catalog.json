@@ -12,13 +12,13 @@
   "feeds": "atom",
   "label_mode": true,
   "show_support_artists": true,
+  "feature_support_artists": true,
   "theme": {
     "base": "light",
     "background_image": "./images/cover.png"
   },
   "home_image": {
     "description": "Tumultes !",
-    "file": "./images/tumblr_mnlrxiVHmK1qzpy7ko1_1280.webp"
-  },
-  "feature_support_artists": true
+    "file": "./images/cover.png"
+  }
 }
