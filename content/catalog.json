@@ -20,10 +20,10 @@
     "accent_brightening": 0,
     "accent_chroma": 0,
     "accent_hue": 0,
-    "background_alpha": 75,
-    "base_chroma": 0,
-    "base_hue": 0,
-    "dynamic_range": 0
+    "background_alpha": 23,
+    "base_chroma": 23,
+    "base_hue": 26,
+    "dynamic_range": 50
   },
   "home_image": {
     "description": "Tumultes !",
