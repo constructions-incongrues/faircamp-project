@@ -17,12 +17,15 @@ def json_to_eno_lines(data, indent=0, separator=':'):
                 lines.append(f'{prefix}{key}:')
                 lines.extend(json_to_eno_lines(value, indent + 1, ' ='))
             elif isinstance(value, list):
-                # lines.append(f'{prefix}>{key}')
                 for item in value:
                     if isinstance(item, (dict, list)):
                         lines.extend(json_to_eno_lines(item, indent))
                     else:
                         lines.append(f'{prefix}  - {item}')
+            elif isinstance(value, str) and '\n' in value:  # Multiline field
+                lines.append(f'{prefix}-- {key}')
+                lines.extend(f'{prefix}{line}' for line in value.splitlines())
+                lines.append(f'{prefix}-- {key}')
             else:
                 lines.append(f'{prefix}{key}{separator} {value}')
     elif isinstance(data, list):
