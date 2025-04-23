@@ -65,6 +65,7 @@ collections: # A list of collections the CMS should be able to edit
         name: tracks
         widget: list
         required: false
+        collapsed: true
         label_singular: Track
         summary: '{{artist}} - {{title}}'
         fields:
@@ -107,6 +108,7 @@ collections: # A list of collections the CMS should be able to edit
             name: 'theme'
             widget: 'object'
             required: false
+            collapsed: true
             hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#theme'
             fields: 
               - name: base
@@ -152,6 +154,7 @@ collections: # A list of collections the CMS should be able to edit
           - label: 'Links'
             name: 'links'
             widget: list
+            collapsed: true
             label_singular: Link
             summary: '{{label}}'
             root: true
