@@ -1,0 +1,28 @@
+name: Cache APT Packages
+
+on:
+  workflow_call:  # 👈 permet à d'autres workflows de l'appeler
+
+jobs:
+  install-and-cache-apt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore APT .deb cache
+        uses: actions/cache@v4
+        with:
+          path: ./deb-cache
+          key: apt-debs-${{ runner.os }}-${{ hashFiles('apt-packages.txt') }}
+          restore-keys: |
+            apt-debs-${{ runner.os }}-
+
+      - name: Download APT packages
+        run: |
+          mkdir -p deb-cache
+          cd deb-cache
+          xargs -a ../apt-packages.txt -I {} bash -c "apt-get download {} || true"
+          wget -q https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb -O faircamp_1.3.0-1+deb12_amd64.deb
+
+      - name: Install packages
+        run: |
+          sudo dpkg -i ./deb-cache/*.deb || sudo apt-get install -f -y

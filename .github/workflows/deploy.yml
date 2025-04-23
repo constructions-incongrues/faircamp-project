@@ -15,6 +15,9 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  cache-apt:
+    uses: ./.github/workflows/cache-apt.yml
+
   build:
     runs-on: ubuntu-latest
 
@@ -32,15 +35,6 @@ jobs:
         uses: py-actions/py-dependency-install@v4
 
         
-      - name: Install APT packages
-        uses: awalsh128/cache-apt-pkgs-action@latest
-        with:
-          packages: gdebi-core make
-          version: 1.0
-
-      - name: Install Faircamp
-        run: wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb  
-
       - name: Restore .faircamp_cache
         id: cache-faircamp-restore
         uses: actions/cache/restore@v4
