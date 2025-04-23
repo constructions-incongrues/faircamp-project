@@ -20,5 +20,19 @@
   "home_image": {
     "description": "Tumultes !",
     "file": "./images/cover.png"
-  }
+  },
+  "links": [
+    {
+      "link": {
+        "label": "Github",
+        "url": "https://github.com/constructions-incongrues/tumultes"
+      }
+    },
+    {
+      "link": {
+        "label": "New",
+        "url": "https://tumultes.incongru.org/admin/#/collections/tumultes/new"
+      }
+    }
+  ]
 }
