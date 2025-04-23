@@ -1,2 +1,3 @@
-gdebi-core
+ffmpeg
+libvips42 
 make
