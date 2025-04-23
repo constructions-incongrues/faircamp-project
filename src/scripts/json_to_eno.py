@@ -8,7 +8,8 @@ def json_to_eno_lines(data, indent=0, separator=':'):
 
     if isinstance(data, dict):
         for key, value in data.items():
-            if value is False:  # Exclure les clés avec une valeur False
+            # Exclure les clés avec une valeur False ou vide
+            if not value:
                 continue
             if value is True:  # Afficher uniquement la clé si la valeur est True
                 lines.append(f'{prefix}{key}')
