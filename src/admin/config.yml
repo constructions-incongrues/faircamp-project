@@ -88,6 +88,8 @@ collections: # A list of collections the CMS should be able to edit
         fields:
           - { label: 'Title', name: 'title', widget: 'string', required: true, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#title' }
           - { label: 'Synopsis', name: 'synopsis', widget: 'text', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#synopsis' }
+          - { label: 'More', name: 'more', widget: 'markdown', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#more' }
+          - { label: 'More (Label)', name: 'more_label', widget: 'markdown', required: false, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#more_label' }
           - { label: 'Base URL', name: 'base_url', widget: 'string', required: true, hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#base_url' }
           - { label: 'Language', name: 'language', widget: 'string', required: true, default: 'fr', hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#language' }
           - { label: 'Cache Optimization', name: 'cache_optimization', widget: 'select', required: true, options: [delayed, immediate, wipe, manual], default: 'delayed', hint: 'https://simonrepp.com/faircamp/manual/catalog-catalog-eno.html#cache_optimization' }
