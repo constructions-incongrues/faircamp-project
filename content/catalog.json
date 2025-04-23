@@ -1,6 +1,8 @@
 {
   "title": "Tumultes",
   "synopsis": "Tumultes, \nça va faire du bruit quelque part.",
+  "more": "![](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml/badge.svg)",
+  "more_label": "",
   "base_url": "https://tumultes.incongru.org/",
   "language": "fr",
   "cache_optimization": "delayed",
