@@ -20,7 +20,7 @@ def tag_audio_files(base_dir):
 
                 title = manifest.get("title", "Unknown Title")
                 curators = manifest.get("curators", [])
-                artist = ", ".join(author) for author in curators
+                artist = ", ".join(curators)
 
                 # Parcourt les pistes dans le manifest pour tagger les fichiers audio
                 tracks = manifest.get("tracks", [])
