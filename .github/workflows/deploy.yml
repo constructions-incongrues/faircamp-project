@@ -39,7 +39,7 @@ jobs:
         with:
           path: |
             var/cache
-          key: ${{ runner.os }}-faircamp
+          key: ${{ runner.os }}-faircamp-cache
 
       - name: Tag tracks
         run: make tag
