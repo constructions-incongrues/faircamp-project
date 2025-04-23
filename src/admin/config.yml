@@ -38,7 +38,7 @@ collections: # A list of collections the CMS should be able to edit
     public_folder: ''
     view_groups:
       - label: Year
-        field: date
+        field: publish_date
         pattern: \d{4}
       - label: Drafts
         field: draft
