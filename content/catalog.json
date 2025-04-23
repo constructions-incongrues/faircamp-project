@@ -1,6 +1,6 @@
 {
   "title": "Tumultes",
-  "synopsis": "Sali-salut les lêpreux !\n",
+  "synopsis": "Sali-salut les lêpreux !",
   "base_url": "https://tumultes.incongru.org/",
   "language": "fr",
   "cache_optimization": "delayed",
@@ -20,7 +20,7 @@
     "accent_brightening": 0,
     "accent_chroma": 0,
     "accent_hue": 0,
-    "background_alpha": 50,
+    "background_alpha": 75,
     "base_chroma": 0,
     "base_hue": 0,
     "dynamic_range": 0
