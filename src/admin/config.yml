@@ -76,6 +76,33 @@ collections: # A list of collections the CMS should be able to edit
             widget: file
             media_library: 
               allow_multiple: false
+      - label: Configuration
+        name: configuration
+        widget: object
+        fields:
+          - label: Releases Downloads
+            name: releases_downloads
+            widget: select
+            options: [flac, mp3, opus, ogg, wav]
+            default: flac
+            multiple: true
+          - label: M3U
+            name: m3u
+            widget: select
+            options: [enabled, disabled]
+            default: disabled
+          - label: Synopsis
+            name: synopsis
+            widget: markdown
+          - label: More
+            name: more
+            widget: markdown
+          - label: More (Label)
+            name: synopsis
+            widget: markdown            
+          - { label: 'Copy Link', name: 'copy_link', widget: 'select', options: [enabled, disabled], required: false, default: enabled }
+          - { label: 'Download Codes', name: 'download_codes', widget: 'list', required: false, field: {label: Code, name: code, widget: string} }
+          
 
   - label: Settings
     name: settings
