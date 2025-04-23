@@ -1,90 +1,93 @@
 {
-    "title": "La Discoteka",
-    "draft": false,
-    "date": "2024-06-16 00:00:00",
-    "image": "cover.jpg",
-    "about": "",
-    "tracks": [
-        {
-            "artist": "Unknown Artist",
-            "title": "01 - Hong Kong Counterfeit - Discotto Plastique",
-            "file": "01 - Hong Kong Counterfeit - Discotto Plastique.mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "ANTI ROCK - D.I.S.C.O. - DISCO MIX 12 - 1980",
-            "file": "ANTI ROCK - D.I.S.C.O. - DISCO MIX 12 - 1980.mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "Birmingham & Eggs = Disco Dog (迪斯科狗) 1977",
-            "file": "Birmingham & Eggs = Disco Dog (迪斯科狗) 1977.mp3"
-        },
-        {
-            "artist": "Gameboyz",
-            "title": "Calor Del Foco",
-            "file": "Calor Del Foco.mp3"
-        },
-        {
-            "artist": "Ottawan",
-            "title": "D.I.S.C.O. (Version française)",
-            "file": "D.I.S.C.O. (Version française).mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "Disco Shitan - Shitan part 1 and part 2",
-            "file": "Disco Shitan - Shitan part 1 and part 2++.mp3"
-        },
-        {
-            "artist": "Dance Reaction",
-            "title": "Disco Train (12 Inch)",
-            "file": "Disco Train (12 Inch).mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "Marcello Giombini - Computer Disco rare italo synth",
-            "file": "Marcello Giombini - Computer Disco rare italo synth.mp3"
-        },
-        {
-            "artist": "DiscoSaturdayNightTV",
-            "title": "Martin Circus - Disco Circus (Prelude Records) Extended Version 1977, 1984",
-            "file": "Martin Circus - Disco Circus (Prelude Records) Extended Version 1977, 1984.mp3"
-        },
-        {
-            "artist": "UnidiscMusic",
-            "title": "Patrick Cowley - Do You Wanna Funk? (feat. Sylvester)",
-            "file": "Patrick Cowley - Do You Wanna Funk？ (feat. Sylvester).mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "Rofo- flashlight on a disconight ( HIGH ENERGY)",
-            "file": "Rofo- flashlight on a disconight ( HIGH ENERGY).mp3"
-        },
-        {
-            "artist": "Stereo Total",
-            "title": "(I Hate) Everybody In The Discotheque",
-            "file": "Stereo Total - (I Hate) Everybody In The Discotheque.mp3"
-        },
-        {
-            "artist": "Cedric Fc",
-            "title": "Whirlpool Productions - From Disco To Disco (1996)",
-            "file": "Whirlpool Productions - From Disco To Disco (1996).mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "ZIG ZAG - Disco Danser DISCO QUÉBÉCOIS 1978",
-            "file": "ZIG ZAG - Disco Danser DISCO QUÉBÉCOIS 1978.mp3"
-        },
-        {
-            "artist": "Unknown Artist",
-            "title": "digitronic-disconight.wmv",
-            "file": "digitronic-disconight.wmv.mp3"
-        }
-    ],
-    "curators":
-    [
-        {
-            "name": "Tristan"
-        }
-    ]
+  "title": "La Discoteka",
+  "curators": [
+    {
+      "name": "Tristan"
+    },
+    {
+      "name": "Nelly"
+    }
+  ],
+  "publish_date": "2024-06-16 04:15",
+  "image": "cover.jpg",
+  "about": "",
+  "tracks": [
+    {
+      "artist": "Unknown Artist",
+      "title": "01 - Hong Kong Counterfeit - Discotto Plastique",
+      "file": "01 - Hong Kong Counterfeit - Discotto Plastique.mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "ANTI ROCK - D.I.S.C.O. - DISCO MIX 12 - 1980",
+      "file": "ANTI ROCK - D.I.S.C.O. - DISCO MIX 12 - 1980.mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "Birmingham & Eggs = Disco Dog (迪斯科狗) 1977",
+      "file": "Birmingham & Eggs = Disco Dog (迪斯科狗) 1977.mp3"
+    },
+    {
+      "artist": "Gameboyz",
+      "title": "Calor Del Foco",
+      "file": "Calor Del Foco.mp3"
+    },
+    {
+      "artist": "Ottawan",
+      "title": "D.I.S.C.O. (Version française)",
+      "file": "D.I.S.C.O. (Version française).mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "Disco Shitan - Shitan part 1 and part 2",
+      "file": "Disco Shitan - Shitan part 1 and part 2++.mp3"
+    },
+    {
+      "artist": "Dance Reaction",
+      "title": "Disco Train (12 Inch)",
+      "file": "Disco Train (12 Inch).mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "Marcello Giombini - Computer Disco rare italo synth",
+      "file": "Marcello Giombini - Computer Disco rare italo synth.mp3"
+    },
+    {
+      "artist": "DiscoSaturdayNightTV",
+      "title": "Martin Circus - Disco Circus (Prelude Records) Extended Version 1977, 1984",
+      "file": "Martin Circus - Disco Circus (Prelude Records) Extended Version 1977, 1984.mp3"
+    },
+    {
+      "artist": "UnidiscMusic",
+      "title": "Patrick Cowley - Do You Wanna Funk? (feat. Sylvester)",
+      "file": "Patrick Cowley - Do You Wanna Funk？ (feat. Sylvester).mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "Rofo- flashlight on a disconight ( HIGH ENERGY)",
+      "file": "Rofo- flashlight on a disconight ( HIGH ENERGY).mp3"
+    },
+    {
+      "artist": "Stereo Total",
+      "title": "(I Hate) Everybody In The Discotheque",
+      "file": "Stereo Total - (I Hate) Everybody In The Discotheque.mp3"
+    },
+    {
+      "artist": "Cedric Fc",
+      "title": "Whirlpool Productions - From Disco To Disco (1996)",
+      "file": "Whirlpool Productions - From Disco To Disco (1996).mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "ZIG ZAG - Disco Danser DISCO QUÉBÉCOIS 1978",
+      "file": "ZIG ZAG - Disco Danser DISCO QUÉBÉCOIS 1978.mp3"
+    },
+    {
+      "artist": "Unknown Artist",
+      "title": "digitronic-disconight.wmv",
+      "file": "digitronic-disconight.wmv.mp3"
+    }
+  ],
+  "draft": false,
+  "date": "2024-06-16 00:00:00"
 }
