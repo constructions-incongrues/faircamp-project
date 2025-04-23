@@ -38,24 +38,8 @@ jobs:
           packages: gdebi-core make
           version: 1.0
 
-      - name: Restore APT cache
-        id: cache-apt-restore
-        uses: actions/cache/restore@v4
-        with:
-          path: |
-            /var/cache/apt/archives
-          key: ${{ runner.os }}-apt-cache
-
       - name: Install Faircamp
         run: wget https://simonrepp.com/faircamp/packages/faircamp_1.3.0-1+deb12_amd64.deb && sudo gdebi -n faircamp_1.3.0-1+deb12_amd64.deb  
-
-      - name: Save APT cache
-        id: cache-apt-save
-        uses: actions/cache/save@v4
-        with:
-          path: |
-            /var/cache/apt/archives
-          key: ${{ steps.cache-apt-restore.outputs.cache-primary-key }}
 
       - name: Restore .faircamp_cache
         id: cache-faircamp-restore
