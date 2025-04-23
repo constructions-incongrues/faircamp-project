@@ -1,12 +1,8 @@
 {
   "title": "La Discoteka",
   "curators": [
-    {
-      "name": "Tristan"
-    },
-    {
-      "name": "Nelly"
-    }
+      "Tristan",
+      "Nelly"
   ],
   "publish_date": "2024-06-16 04:15",
   "image": "cover.jpg",
@@ -88,5 +84,5 @@
       "file": "digitronic-disconight.wmv.mp3"
     }
   ],
-  "draft": false
+  "unlisted": false
 }

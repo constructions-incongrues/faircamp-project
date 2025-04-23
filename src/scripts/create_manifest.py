@@ -6,7 +6,7 @@ def create_manifest(directory, output_file="manifest.json"):
     # Utilise le nom du dossier comme titre
     manifest = {
         "title": os.path.basename(os.path.dirname(directory)),
-        "draft": True,
+        "unlisted": True,
         "date": "",
         "image": "",
         "about": "",

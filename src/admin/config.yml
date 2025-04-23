@@ -40,16 +40,17 @@ collections: # A list of collections the CMS should be able to edit
       - label: Year
         field: publish_date
         pattern: \d{4}
-      - label: Drafts
-        field: draft
+      - label: Unlisted
+        field: unlisted
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
+      - { label: 'Unlisted', name: 'unlisted', widget: 'boolean', default: true }
       - label: "Curators"
         name: "curators"
         widget: "list"
         label_singular: Curator
-        fields:
-          - { label: "Name", name: "name", widget: "string" }
+        field:
+          - { label: Name, name: name, widget: string }
       -  label: 'Publish Date'
          name: 'publish_date'
          widget: 'datetime'
