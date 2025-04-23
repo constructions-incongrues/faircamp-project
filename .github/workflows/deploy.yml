@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+  repository_dispatch:
+    types: [sveltia-cms-publish]
 
 permissions:
   contents: read
@@ -39,8 +41,6 @@ jobs:
 
       - name: Install packages
         run: |
-          sudo dpkg -i ./deb-cache/gdebi-core_*.deb || sudo apt-get install -f -y
-          sudo gdebi -n ./deb-cache/faircamp_1.3.0-1+deb12_amd64.deb
           sudo dpkg -i ./deb-cache/*.deb || sudo apt-get install -f -y
 
       - name: Setup Python

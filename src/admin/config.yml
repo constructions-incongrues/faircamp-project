@@ -7,6 +7,7 @@ backend:
   auth_endpoint: /api/auth
   auth_scope: repo # this is needed to fork the private repo
   open_authoring: true
+  automatic_deployments: true
 
 site_url: https://tumultes.incongru.org
 
@@ -19,23 +20,28 @@ display_url: https://tumultes.incongru.org
 editor:
     preview: false
 
-collections: # A list of collections the CMS should be able to edit
-  - name: 'tumultes' # Used in routes, ie.: /admin/collections/:slug/edit
-    label: 'Tumultes' # Used in the UI
-    label_singular: 'Tumulte' # Used in the UI, ie: "New Post"
+collections: 
+  - name: 'tumultes' 
+    label: 'Tumultes'
+    label_singular: 'Tumulte'
     icon: genres
     description: >
       Du son pour les oreilles
     folder: 'content/tumultes'
     slug: '{{slug}}'
     path: '{{slug}}/manifest'
-    summary: '{{title}}'
+    summary: '{{title}} [{{curators}}]'
     create: true # Allow users to create new documents in this collection
     editor:
       visualEditing: true
     format: json
     media_folder: ''
     public_folder: ''
+    sortable_fields:
+      fields: [title, publish_date]
+      default:
+        field: publish_date
+        direction: descending # default: ascending
     view_groups:
       - label: Year
         field: publish_date
