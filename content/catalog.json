@@ -1,8 +1,8 @@
 {
   "title": "Tumultes",
-  "synopsis": "Tumultes, \nça va faire du bruit quelque part.\n\n[![](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml/badge.svg \"deploy\")](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml)",
+  "synopsis": "Tumultes, \nça va faire du bruit quelque part.",
   "more": "",
-  "more_label": "",
+  "more_label": "[![](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml/badge.svg \"deploy\")](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml)",
   "base_url": "https://tumultes.incongru.org/",
   "language": "fr",
   "cache_optimization": "delayed",
