@@ -15,7 +15,14 @@
   "feature_support_artists": true,
   "theme": {
     "base": "light",
-    "background_image": "./images/cover.png"
+    "background_image": "./images/cover.png",
+    "accent_brightening": 0,
+    "accent_chroma": 0,
+    "accent_hue": 0,
+    "background_alpha": 0,
+    "base_chroma": 0,
+    "base_hue": 0,
+    "dynamic_range": 0
   },
   "home_image": {
     "description": "Tumultes !",
