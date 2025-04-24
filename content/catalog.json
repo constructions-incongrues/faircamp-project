@@ -2,7 +2,7 @@
   "title": "Tumultes",
   "synopsis": "Tumultes, \nça va faire du bruit quelque part.",
   "more": "",
-  "more_label": "[![](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml/badge.svg \"deploy\")](https://github.com/constructions-incongrues/tumultes/actions/workflows/deploy.yml)",
+  "more_label": "",
   "base_url": "https://tumultes.incongru.org/",
   "language": "fr",
   "cache_optimization": "delayed",
